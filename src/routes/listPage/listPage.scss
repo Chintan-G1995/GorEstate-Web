@@ -1,17 +1,25 @@
-.listPage{
-display: flex;
-height: 100%;
+.listPage {
+  display: flex;
+  height: 100%;
 
-.listContainer{
-flex: 3;
+  .listContainer {
+    flex: 3;
 
-.wrapper{
-    
-}
-}
+    .wrapper {
+      height: 100%;
+      padding-right: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      overflow-y: scroll;
+      padding-bottom: 50px;
+    }
+  }
 
-.mapContainer{
-    flex: 2;
+  .mapContainer {
+    flex: 0;
     background-color: #fcf5f3;
-}
+    height: 100%;
+    
+  }
 }

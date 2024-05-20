@@ -1,3 +1,4 @@
+
 export const listData = [
   {
     id: 1,
@@ -6,7 +7,7 @@ export const listData = [
     bedroom: 2,
     bathroom: 1,
     price: 1000,
-    address: "456 Park Avenue, London",
+    address: "456 Park Avenue, India",
     latitude: 51.5074,
     longitude: -0.1278,
   },
@@ -17,7 +18,7 @@ export const listData = [
     bedroom: 3,
     bathroom: 2,
     price: 1500,
-    address: "789 Oxford Street, London",
+    address: "789 Mohali Street, India",
     latitude: 52.4862,
     longitude: -1.8904,
   },
@@ -28,7 +29,7 @@ export const listData = [
     bedroom: 1,
     bathroom: 1,
     price: 800,
-    address: "101 Baker Street, London",
+    address: "101 Baker Street, India",
     latitude: 53.4808,
     longitude: -2.2426,
   },
@@ -39,7 +40,7 @@ export const listData = [
     bedroom: 2,
     bathroom: 1,
     price: 1000,
-    address: "234 Kingsway, London,",
+    address: "234 Kahu, India,",
     latitude: 53.8008,
     longitude: -1.5491,
   },
@@ -50,7 +51,7 @@ export const listData = [
     bedroom: 3,
     bathroom: 2,
     price: 1500,
-    address: "567 Victoria Road, London",
+    address: "567 Vivekanad Road, India",
     latitude: 53.4084,
     longitude: -2.9916,
   },
@@ -61,7 +62,7 @@ export const listData = [
     bedroom: 1,
     bathroom: 1,
     price: 800,
-    address: "890 Regent Street, London",
+    address: "890 Raber Street, India",
     latitude: 54.9783,
     longitude: -1.6174,
   },
@@ -72,7 +73,7 @@ export const listData = [
     bedroom: 2,
     bathroom: 1,
     price: 1000,
-    address: "112 Piccadilly, London",
+    address: "112 Pinya, India",
     latitude: 53.3811,
     longitude: -1.4701,
   },
@@ -83,7 +84,7 @@ export const listData = [
     bedroom: 3,
     bathroom: 2,
     price: 1500,
-    address: "8765 Main High Street, London",
+    address: "8765 Main High Street, India",
     latitude: 51.4545,
     longitude: -2.5879,
   },
@@ -104,7 +105,7 @@ export const singlePostData = {
   size: 861,
   latitude: 51.5074,
   longitude: -0.1278,
-  city: "London",
+  city: "India",
   address: "1234 Broadway St",
   school: "250m away",
   bus: "100m away",
@@ -115,6 +116,25 @@ export const singlePostData = {
 
 export const userData = {
   id: 1,
-  name: "John Doe",
+  name: "Jayesh",
   img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 };
+
+
+// export const singlePostdata = [
+//   {
+//     id: 1,
+//     title: "A Great Apartment Next to the Beach!",
+//     images: [
+//       "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+//     ],
+//     bedroom: 2,
+//     bathroom: 1,
+//     price: 1000,
+//     address: "456 Park Avenue, India",
+//     latitude: 51.5074,
+//     longitude: -0.1278,
+//   },
+// ]
+
+// export default dummydata;
